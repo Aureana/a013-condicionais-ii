@@ -1,4 +1,4 @@
-let nacionalidade = prompt("digite aqui a nacionalidade").toLowerCase();
+let nacionalidade = prompt("digite aqui a nacionalidade").toLowerCase()
 
 switch(nacionalidade){
     case"brasileira":

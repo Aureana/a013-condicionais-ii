@@ -6,8 +6,8 @@ if(nome === "José"){
 	console.log("Olá, "+nome);
 }
 **/
-const nome = prompt("Qual é o seu nome?")
-nome ===("josé")? console.log("oi, Zé!") : console.log("olá," +nome)
+const nome = prompt("Qual é o seu nome?").toLowerCase()
+nome ==="josé" || nome === "jose"? console.log("oi, Zé!") : console.log("olá," +nome)
 
 /*
 if(idade >= 18){
